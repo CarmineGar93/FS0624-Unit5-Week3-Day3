@@ -1,15 +1,12 @@
 package CarmineGargiulo.FS0624_Unit5_Week3_Day3.runners;
 
-import CarmineGargiulo.FS0624_Unit5_Week3_Day3.entities.Info;
-import CarmineGargiulo.FS0624_Unit5_Week3_Day3.entities.InfoAdapter;
-import CarmineGargiulo.FS0624_Unit5_Week3_Day3.entities.UserData;
-import org.springframework.beans.factory.annotation.Qualifier;
+import CarmineGargiulo.FS0624_Unit5_Week3_Day3.entities1.Info;
+import CarmineGargiulo.FS0624_Unit5_Week3_Day3.entities1.InfoAdapter;
+import CarmineGargiulo.FS0624_Unit5_Week3_Day3.entities1.UserData;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-import java.sql.Date;
-import java.text.DateFormat;
 import java.time.LocalDate;
 
 @Component

@@ -1,4 +1,4 @@
-package CarmineGargiulo.FS0624_Unit5_Week3_Day3.entities;
+package CarmineGargiulo.FS0624_Unit5_Week3_Day3.entities1;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
