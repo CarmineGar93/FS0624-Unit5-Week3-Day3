@@ -7,6 +7,6 @@ public class Maggiore extends Ufficiale{
 
     @Override
     protected void mansione() {
-        System.out.println("Sono un maggiore e sono di Fratta");
+        System.out.println("Sono un maggiore e mi piace il dolore");
     }
 }

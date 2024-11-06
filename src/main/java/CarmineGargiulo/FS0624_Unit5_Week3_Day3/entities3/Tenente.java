@@ -7,6 +7,6 @@ public class Tenente extends Ufficiale{
 
     @Override
     protected void mansione() {
-        System.out.println("Sono un tenente e faccio lo schiavo");
+        System.out.println("Sono un tenente e sono intelligente");
     }
 }

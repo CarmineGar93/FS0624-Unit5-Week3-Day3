@@ -7,6 +7,6 @@ public class Generale extends Ufficiale{
 
     @Override
     protected void mansione() {
-        System.out.println("Sono generale e sono un'animale");
+        System.out.println("Sono un generale e sono un'animale");
     }
 }

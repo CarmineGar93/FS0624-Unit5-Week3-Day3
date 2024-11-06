@@ -17,5 +17,6 @@ public class Esercizio3 implements CommandLineRunner {
         Ufficiale capitano = new Capitano(maggiore, 2000);
         Ufficiale tenente = new Tenente(capitano, 1000);
         tenente.controlloSalario(4500);
+        tenente.controlloSalario(6000);
     }
 }

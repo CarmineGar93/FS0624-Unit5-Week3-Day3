@@ -7,6 +7,6 @@ public class Capitano extends Ufficiale{
 
     @Override
     protected void mansione() {
-        System.out.println("Sono un capitano e faccio tutto io");
+        System.out.println("Sono un capitano e vivo lontano");
     }
 }
