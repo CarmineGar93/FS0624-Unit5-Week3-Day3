@@ -20,8 +20,12 @@ abstract public class Ufficiale {
 
     protected abstract void mansione();
     public void controlloSalario(int tetto){
-        if(tetto < this.salario) System.out.println(this.getClass().getSimpleName() + " arriva al tetto inserito di " + tetto);
-        else if(nextUfficiale != null) nextUfficiale.controlloSalario(tetto);
+        System.out.println("Controllo se da " + this.getClass().getSimpleName() + " prendo il salario inserito di " + tetto);
+        if(tetto < this.salario) System.out.println("Affermativo");
+        else if(nextUfficiale != null){
+            System.out.println("Negativo :( Passo la palla al mio superiore");
+            nextUfficiale.controlloSalario(tetto);
+        }
         else System.out.println("Ma quanto pensi che prendano gli ufficiali?");
     }
 
