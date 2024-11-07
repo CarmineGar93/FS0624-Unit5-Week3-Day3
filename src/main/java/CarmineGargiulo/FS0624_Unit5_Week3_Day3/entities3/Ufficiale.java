@@ -31,6 +31,6 @@ abstract public class Ufficiale {
 
     public void controllaSuperiore(){
         if (nextUfficiale != null) System.out.println("Il mio superiore è: " + nextUfficiale.getClass().getSimpleName());
-        else System.out.println("Sono il boss");
+        else System.out.println("Sono il boss degli ufficiali");
     }
 }
